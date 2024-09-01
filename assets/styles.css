@@ -31,12 +31,12 @@ nav{
 .routing > button{
     border: none;
     background-color: transparent;
-    color: var(--grey);
     margin: 10px;
     font-size: 18px;
 }
 .routing > button > a{
     text-decoration: none;
+    color: black;
 }
 .routing > button > a:hover{
    color:var(--aqua);
