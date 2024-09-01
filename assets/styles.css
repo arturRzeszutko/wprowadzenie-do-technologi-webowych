@@ -31,10 +31,14 @@ nav{
 .routing > button{
     border: none;
     background-color: transparent;
+    color: var(--grey);
     margin: 10px;
     font-size: 18px;
 }
-.routing > button:hover{
+.routing > button > a{
+    text-decoration: none;
+}
+.routing > button > a:hover{
    color:var(--aqua);
 }
 .homeArticle{
@@ -47,13 +51,13 @@ nav{
     max-width: 40%;
     padding: 50px 120px;
 }
-h1{
+.homeArticle > .homeText >h1{
     font-size: 40px;
     letter-spacing: 2px;
     font-weight: 500;
     padding: 12px 0;
 }
-p{
+.homeArticle > .homeText > p{
     padding: 12px 0;
     font-size: 17px;;
 }
@@ -65,9 +69,19 @@ p{
     border-radius: 4px;
     background-color: var(--aqua);
 }
-.about{
+.aboutus{
     text-align: center;
     margin: 60px 25%;
+}
+.aboutus > h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    padding: 12px 0;
+}
+.aboutus > p{
+    padding: 12px 0;
+    font-size: 17px;;
 }
 .signature{
     width: 250px;
@@ -78,6 +92,16 @@ p{
     background-image: url('./Photos/AdobeStock_415967388_Preview.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+.skills > h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    padding: 12px 0;
+}
+.skills > p{
+    padding: 12px 0;
+    font-size: 17px;;
 }
 .skills > .progress{
     width: 400px;
@@ -120,7 +144,8 @@ p{
     display: inline-block;
 }
 .feedback p{
-    padding: 4px; 
+    padding: 4px;
+    font-size: 17px; 
 }
 .feedback p:nth-child(1){
     font-weight: 500;
@@ -170,6 +195,10 @@ p{
     width: 21%;
     padding: 40px 0;
 }
+.us > .pro > p{
+    padding: 12px 0;
+    font-size: 17px;;
+}
 .us > .pro > img{
     width: 30px;
     height: 30px;
@@ -185,6 +214,7 @@ p{
 }
 .slide > p{
     padding-top: 40px;
+    font-size: 17px;
 }
 .adds{
     display: flex;
@@ -203,7 +233,7 @@ p{
 .form{
     text-align: center;
     background-color: rgb(214, 214, 214);
-    padding-bottom: 24px;
+    padding: 24px 0;
 }
 .form > .contact-form{
     display: flex;
@@ -224,7 +254,7 @@ p{
     margin: 10px 0;
 }
 .form > .contact-form > .textarea{
-    height: 240px;
+    height: 200px;
 }
 .form > .contact-form > .submit{
     width: 150px;
